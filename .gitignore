@@ -1,0 +1,20 @@
+# Build artifacts
+*.o
+
+# Executables produced by Makefile
+gen-ints
+gen-points
+ints2text
+points2text
+strings2mapping
+strings2ints
+run-dist-histogram
+run-histogram
+
+# Temporary outputs commonly generated during experiments
+*.ints
+*.pts
+
+# Editor/OS artifacts
+.DS_Store
+Thumbs.db
